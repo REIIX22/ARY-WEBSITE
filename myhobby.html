@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Zaxky | My Hobbies</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Oxanium', sans-serif;
+      background: linear-gradient(145deg, #0d0d0d, #1a1a1a);
+      color: #fff;
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 30px;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid #333;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #00ffd5;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #ccc;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+
+    nav a:hover {
+      color: #00ffd5;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      margin: 40px 0 20px;
+      color: #00ffd5;
+      text-shadow: 0 0 10px #00ffd5;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+      display: grid;
+      gap: 30px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 25px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0,255,213,0.15);
+      backdrop-filter: blur(10px);
+    }
+
+    .card h3 {
+      color: #00ffd5;
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #ccc;
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #666;
+      border-top: 1px solid #333;
+      margin-top: 60px;
+      font-size: 0.85rem;
+    }
+
+    @media(min-width: 768px) {
+      .container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ARY | My Hobbies</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="aboutme.html">About Me</a>
+      <a href="myhobby.html">My Hobbies</a>
+      <a href="my fav.html">My Favorites</a>
+    </nav>
+  </header>
+
+  <div class="section-title">🎯 My Hobbies</div>
+  <section class="container">
+
+    <div class="card">
+      <h3>🎮 Gaming</h3>
+      <p>I love playing video games, especially RPGs and story-based games. Gaming helps me relax, think critically, and excape my reality <3 Trust me i'm such a pro gamer hehehe >:3</p>
+        <br>
+        <img src="meow gaming.jpg" alt="meow gaming"
+       style="width:200px; height:auto; margin-bottom:15px; box-shadow:0 0 15px #00ffd5aa; object-fit:cover;">
+       <br>
+        
+    </div>
+
+    <div class="card">
+      <h3>✏️ Drawing</h3>
+      <p>Drawing allows me to express my creativity and imagination. I love sketching characters and all of my drawing is traditional :3</p>
+    </div>
+
+    <div class="card">
+      <h3>🎧 Listening to Music</h3>
+      <p>Music is my way to focus and escape. I enjoy listening any type of genres of music, it makes me relaxing while working or studying :) Here is my fav song of all times:</p>
+       <audio controls>
+    <source src="Arctic Monkeys - Why'd You Only Call Me When You're High_.mp3" type="audio/mpeg">
+    
+  </audio>
+      <br>
+      <br>
+      <img src="meow vibing.jpg" alt="meow vibing"
+       style="width:200px; height:auto; margin-bottom:15px; box-shadow:0 0 15px #00ffd5aa; object-fit:cover;">
+       <br>
+    </div>
+
+  </section>
+
+  <footer>
+   PEW PEW PEW
+  </footer>
+
+</body>
+</html>
